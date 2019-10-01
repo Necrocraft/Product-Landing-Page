@@ -1,0 +1,200 @@
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+
+body {
+  background: linear-gradient(#30BFF3, white, #30BFF3);
+  text-align: center;
+}
+
+.page-layout {
+  position: relative;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  position: fixed;
+  background-color: #643F73;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+}
+
+@media (max-width: 600px) {
+  header {
+    position: relative;
+  }
+}
+
+#header-img {
+  width: 500px;
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media (max-width: 600px) {
+  ul {
+    flex-wrap: wrap;
+  }
+}
+
+.nav-link {
+  font-size: 20px;
+  color: black;
+  text-decoration: underline;
+  text-shadow: 2px 2px 4px white;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+#email {
+  text-align: center;
+  height: 30px;
+  width: 300px;
+  border-radius: 3px;
+  border: solid 0.5px;
+  margin: 20px;
+}
+
+#submit {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: yellow;
+  border: solid 0.5px;
+  margin: 10px;
+}
+
+#heading {
+  margin-top: 50px;
+}
+
+#submit:hover {
+  background-color: orange;
+  transition: background-color 1s;
+}
+
+.box {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.grid {
+  display: flex;
+}
+
+#Whyus {
+  margin-top: 30px;
+}
+
+#Whyus .icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 125px;
+  width: 20vw;
+}
+
+#Whyus .description {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 100px;
+  width: 60vw;
+  height: 125px;
+  text-align: start;
+}
+
+#desc {
+  margin: 1px;
+}
+
+#video {
+  margin: 50px;
+  border: solid 1px;
+  border-radius: 5px;
+}
+
+#Cost {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100% / 3);
+  border: solid 1px;
+  border-radius: 3px;
+  margin: 10px;
+}
+
+.pricing .level {
+  background-color: #ddd;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 10px 0;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.pricing>h2 {
+  margin-top: 15px;
+}
+
+.pricing>ol {
+  margin-right: 45px;
+  margin-top: 5px;
+}
+
+.pricing>ol>li {
+  padding: 10px 0;
+}
+
+.btn {
+  width: 120px;
+  height: 40px;
+  margin: 10px;
+  background-color: yellow;
+  border: solid 1px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+}
+
+.btn:hover {
+  background-color: orange;
+  transition: background-color 1s;
+}
+
+footer {
+  background-color: #ddd;
+  margin-top: 30px;
+  padding: 5px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+#example a {
+  font-weight: bold;
+  font-family: 'Cinzel', serif;
+  text-shadow: 2px 2px 4px;
+}
